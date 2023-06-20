@@ -5,9 +5,7 @@ import org.openqa.selenium.Keys;
 
 public class TestFiveCreateFolderAndDelete extends InitializingMethods {
 	
-	public static void NewFolder() throws Throwable {	
-
-		WindowsDriver driver = (WindowsDriver) Setup();
+	public static void NewFolder() throws Throwable {
 		
 		Set<String> allWindowHandles = driver.getWindowHandles();
 		driver.switchTo().window(allWindowHandles.iterator().next());
@@ -27,14 +25,14 @@ public class TestFiveCreateFolderAndDelete extends InitializingMethods {
 		driver.findElementByAccessibilityId("DeleteThisFolder").click();
 		Thread.sleep(1000);
 		driver.findElementByAccessibilityId("6").click();
-		System.out.println("Aureus Mailbox Folder is deleted");
-		
-		Close();
+		System.out.println("Aureus Mailbox Folder is deleted");	
 
 	}
 
 public static void main(String[] args) throws Throwable {
+	Setup();
 	NewFolder();
+	Close();
 	System.out.println("Main method executed");
 	
 }
