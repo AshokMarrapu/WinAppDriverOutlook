@@ -33,11 +33,22 @@
     <version>3.141.59</version>
 </dependency>
 
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.1.0</version>
+<scope>test</scope>
+</dependency>
 
 
   	<dependency>
   		<groupId>CucumberBDD</groupId>
   		<artifactId>SeleniumBDD</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>CucumberBDD</groupId>
+  		<artifactId>OutlookAutomation</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
