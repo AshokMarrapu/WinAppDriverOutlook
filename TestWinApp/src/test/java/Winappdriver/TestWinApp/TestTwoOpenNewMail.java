@@ -37,9 +37,11 @@ public class TestTwoOpenNewMail extends InitializingMethods {
 
 
 	public static void main(String[] args) throws Throwable {
+		OpenWinAppDriver();
 		Setup();
 		OpenNewMail();
 		Close();
+		CloseWinAppDriver();
 		System.out.println("Main method executed");
 
 	}
