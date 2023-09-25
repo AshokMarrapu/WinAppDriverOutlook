@@ -14,17 +14,17 @@ public class TestFiveCreateFolderAndDelete extends InitializingMethods {
 		driver.findElementByAccessibilityId("NewFolder").click();
 		System.out.println("Driver clicked on New Folder button");
 		Thread.sleep(3000);
-		driver.findElementByAccessibilityId("4097").sendKeys("Aureus Mailbox", Keys.ENTER);
+		driver.findElementByAccessibilityId("4097").sendKeys("Aureus Mailbox1", Keys.ENTER);
 		System.out.println("Driver entered Aureus Mailbox in text field");
 		System.out.println("Aureus Mailbox is created");
 		Thread.sleep(1000);		
-		driver.findElementByName("Aureus Mailbox").click();
+		driver.findElementByName("Aureus Mailbox1").click();
 		System.out.println("Driver clicked on Aureus Mailbox");
 		Thread.sleep(1000);
 		driver.findElementByAccessibilityId("DeleteThisFolder").click();
 		Thread.sleep(1000);
 		driver.findElementByAccessibilityId("6").click();
-		System.out.println("Aureus Mailbox Folder is deleted");	
+		System.out.println("Aureus Mailbox1 Folder is deleted");
 
 	}
 
@@ -34,7 +34,7 @@ public class TestFiveCreateFolderAndDelete extends InitializingMethods {
 		NewFolder();
 		Close();
 		CloseWinAppDriver();
-		System.out.println("Main method executed");
+		System.out.println("Main method is executed");
 
 	}
 

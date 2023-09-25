@@ -34,7 +34,7 @@ public class TestOneOpenClosePlugin extends InitializingMethods {
 		Launch();
 		Close();
 		CloseWinAppDriver();
-		System.out.println("Main method executed");
+		System.out.println("Main method is executed");
 
 	}
 }

@@ -25,7 +25,7 @@ public class TestOneOutlookLaunch extends InitializingMethods {
 		//Thread.sleep(3000);
 		CloseWinAppDriver();
 
-		System.out.println("Main method executed");
+		System.out.println("Main method is executed");
 
 	}
 }

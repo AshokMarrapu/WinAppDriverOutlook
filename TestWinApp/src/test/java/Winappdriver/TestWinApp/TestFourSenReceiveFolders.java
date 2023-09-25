@@ -30,7 +30,7 @@ public static void main(String[] args) throws Throwable {
 	Refresh();
 	Close();
 	CloseWinAppDriver();
-	System.out.println("Main method executed");
+	System.out.println("Main method is executed");
 }
 
 }

@@ -72,6 +72,6 @@ public static void main(String[] args) throws Throwable {
 	SendMail();
 	Close();
 	CloseWinAppDriver();
-	System.out.println("Main method executed");
+	System.out.println("Main method is executed");
 }
 }

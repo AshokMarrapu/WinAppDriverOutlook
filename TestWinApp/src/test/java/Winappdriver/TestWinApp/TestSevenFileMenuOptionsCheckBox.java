@@ -35,7 +35,7 @@ public class TestSevenFileMenuOptionsCheckBox extends InitializingMethods{
 		checkbox();	
 		Close();
 		CloseWinAppDriver();
-		System.out.println("Main method executed");	
+		System.out.println("Main method is executed");	
 			
 	}
 	}

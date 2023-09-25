@@ -58,6 +58,6 @@ public class TestThreeSearchPeople extends InitializingMethods {
 		Search();
 		Close();
 		CloseWinAppDriver();
-		System.out.println("Main method executed");
+		System.out.println("Main method is executed");
 	}
 }
